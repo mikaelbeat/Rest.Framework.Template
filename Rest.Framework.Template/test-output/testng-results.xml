@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4984" started-at="2018-06-12T11:16:42Z" finished-at="2018-06-12T11:16:47Z">
+  <suite name="Default suite" duration-ms="4668" started-at="2018-06-12T11:21:15Z" finished-at="2018-06-12T11:21:20Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4984" started-at="2018-06-12T11:16:42Z" finished-at="2018-06-12T11:16:47Z">
+    <test name="Default test" duration-ms="4668" started-at="2018-06-12T11:21:15Z" finished-at="2018-06-12T11:21:20Z">
       <class name="demo.Rest.Framework.Template.Update">
-        <test-method status="PASS" signature="Login()[pri:0, instance:demo.Rest.Framework.Template.Update@3b0143d3]" name="Login" duration-ms="4905" started-at="2018-06-12T11:16:43Z" finished-at="2018-06-12T11:16:47Z">
+        <test-method status="PASS" signature="Login()[pri:0, instance:demo.Rest.Framework.Template.Update@3b0143d3]" name="Login" duration-ms="4620" started-at="2018-06-12T11:21:15Z" finished-at="2018-06-12T11:21:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->

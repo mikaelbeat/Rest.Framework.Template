@@ -33,7 +33,7 @@ public class Register_Test {
 	public void Login() throws IOException {
 		
 		report = Extentreporter.reportResult();
-		test = report.startTest("Login");
+		test = report.startTest("Register");
 		
 		log.info("*** STARTING REGISTER TEST ***");
 		test.log(LogStatus.INFO, "Getting payload");

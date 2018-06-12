@@ -34,7 +34,7 @@ public class Update {
 	public void Login() throws IOException {
 		
 		report = Extentreporter.reportResult();
-		test = report.startTest("Login");
+		test = report.startTest("Update");
 		
 		log.info("*** STARTING UPDATE TEST ***");
 		test.log(LogStatus.INFO, "Getting payload");

@@ -31,7 +31,7 @@ public class List_Users_Test {
 	public void Login() throws IOException {
 		
 		report = Extentreporter.reportResult();
-		test = report.startTest("Login");
+		test = report.startTest("List Users");
 		
 		log.info("*** STARTING LIST USERS TEST ***");
 		test.log(LogStatus.INFO, "Sending GET request");
