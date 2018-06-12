@@ -14,7 +14,7 @@ public class Test_Utils {
 	public static String Get_Response_String(Response response) {
 		log.info("*** RESPONSE PARSED TO STRING ***");
 		String strResponse = response.getBody().asString();
-		log.debug(strResponse);
+		log.debug("*** RESPONSE ***" + strResponse);
 		return strResponse;
 	}
 	
