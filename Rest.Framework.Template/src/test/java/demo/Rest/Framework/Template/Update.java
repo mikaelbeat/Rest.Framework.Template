@@ -38,10 +38,10 @@ public class Update {
 		
 		log.info("*** STARTING UPDATE TEST ***");
 		test.log(LogStatus.INFO, "Getting payload");
-		String loginPayload = Payload_Converter.Convert_Payload("Update.json");
+		String payload = Payload_Converter.Convert_Payload("Update.json");
 		String endpointURI = URL.getURI("api/users/2");
 		test.log(LogStatus.INFO, "Sending PUT request");
-		response = REST_Calls.PUT_Request(endpointURI, loginPayload);
+		response = REST_Calls.PUT_Request(endpointURI, payload);
 		log.info("*** RESPONSE *** " + response.getBody().asString());
 		String strResponse = Test_Utils.Get_Response_String(response);
 		test.log(LogStatus.INFO, "Response: " + strResponse);

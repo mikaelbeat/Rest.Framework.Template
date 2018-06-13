@@ -37,10 +37,10 @@ public class Register_Test {
 		
 		log.info("*** STARTING REGISTER TEST ***");
 		test.log(LogStatus.INFO, "Getting payload");
-		String loginPayload = Payload_Converter.Convert_Payload("Register.json");
+		String payload = Payload_Converter.Convert_Payload("Register.json");
 		String endpointURI = URL.getURI("api/register");
 		test.log(LogStatus.INFO, "Sending POST request");
-		response = REST_Calls.POST_Request(endpointURI, loginPayload);
+		response = REST_Calls.POST_Request(endpointURI, payload);
 		log.info("*** RESPONSE *** " + response.getBody().asString());
 		String strResponse = Test_Utils.Get_Response_String(response);
 		test.log(LogStatus.INFO, "Response: " + strResponse);
