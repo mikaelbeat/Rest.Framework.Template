@@ -32,7 +32,6 @@ public class Update {
 	
 	@Test(testName="Register")
 	public void Login() throws IOException {
-		
 		report = Extentreporter.reportResult();
 		test = report.startTest("Update");
 		

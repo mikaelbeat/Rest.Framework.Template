@@ -25,7 +25,6 @@ public class JSON_Validator {
 		log.info("*** RESPONSE FILE READ ***");
 		String filePath = System.getProperty("user.dir") + "\\Resources\\Responses\\" + fileName;
 		return new String(Files.readAllBytes(Paths.get(filePath)));
-		
 	}
 	
 	public static String Read_Expected(String fileName) throws IOException {

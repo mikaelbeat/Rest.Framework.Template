@@ -31,7 +31,6 @@ public class Register_Test {
 	
 	@Test(testName="Register")
 	public void Login() throws IOException {
-		
 		report = Extentreporter.reportResult();
 		test = report.startTest("Register");
 		

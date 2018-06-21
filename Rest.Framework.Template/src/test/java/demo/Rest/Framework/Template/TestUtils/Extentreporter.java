@@ -9,7 +9,6 @@ public class Extentreporter {
 		String Path = System.getProperty("user.dir")+"\\Reports\\Report.html";
 		extent = new ExtentReports(Path, false);
 		return extent;
-
 	}
 
 }

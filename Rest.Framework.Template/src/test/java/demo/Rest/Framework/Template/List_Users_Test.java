@@ -29,7 +29,6 @@ public class List_Users_Test {
 	
 	@Test(testName="List Users")
 	public void Login() throws IOException {
-		
 		report = Extentreporter.reportResult();
 		test = report.startTest("List Users");
 		

@@ -25,7 +25,5 @@ public class Base_Assertions {
 	public static void Verify_Status_Code(Response response, String statusMessage) {
 		Assert.assertEquals(Test_Utils.Get_Status_Code(response), statusMessage);
 	}
-	
-	
 
 }
