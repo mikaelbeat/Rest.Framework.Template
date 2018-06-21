@@ -1,14 +1,10 @@
 package demo.Rest.Framework.Template.TestUtils;
 
-import org.apache.log4j.LogManager;
-import org.apache.log4j.Logger;
 import org.testng.Assert;
 
 import io.restassured.response.Response;
 
 public class Base_Assertions {
-	
-	private static Logger log = LogManager.getLogger(Base_Assertions.class.getName());
 	
 	public static void Verify_True(boolean flag) {
 		Assert.assertTrue(flag);
